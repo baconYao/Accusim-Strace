@@ -93,12 +93,14 @@
         -   目的在於刪除 \"%s\" 與 " 之間的換行，避免fprintf的參數不完整，而造成Compile error
         -   將fprintf排好，如下圖：
         -   ![alt](http://i.imgur.com/fIk2wKx.png)
+    *   在disksim/diskmodel/modules `make`即可
 
-2.  cd asim/disksim/src
+2.  cd asim/disksim/src/modules
     *   所有.c檔做縮排，同前一步驟做法
     *   修改src/disksim_disk.c
         -   line:1152(**disk_get_number_of_blocks**)和1156(**disk_get_numcyls**)的 static刪除
         -   line:1162(**disk_get_mapping**)的 static刪除並且縮排
+    *   在disksim/src `make`即可
     *   cd asim/disksim 並且`make`，即可完成Disksim建置
 
 <a name="accusim"/></a>
