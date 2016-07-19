@@ -103,7 +103,7 @@
         -   line:1162(**disk_get_mapping**)的 static刪除並且縮排
     *   在disksim/src `make`即可
 
-### Make Disksim
+#### Make Disksim
     *   cd asim/disksim 並且`make`，即可完成Disksim建置
 
 <a name="accusim"/></a>
