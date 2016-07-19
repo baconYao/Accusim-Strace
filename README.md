@@ -84,7 +84,7 @@
 #### Make DiskModel
 >   This is DiskModel 1.0, a library for modelling disk drive mechanics and layout.
 
-    *   `cd asim/disksim/diskmodel`
+1   `cd asim/disksim/diskmodel`
     *   將asim/disksim/diskmodel/modules內的檔案權限全開
         -   輸入`sudo chmod -f 777 *`
     *   修改asim/disksim/diskmodel內的layout_g1.c
@@ -96,7 +96,7 @@
         -   ![alt](http://i.imgur.com/fIk2wKx.png)
 
 #### Make Src
-    *   cd asim/disksim/src/
+1   cd asim/disksim/src/
     *   所有.c檔做縮排，同前一步驟做法
     *   修改src/disksim_disk.c
         -   line:1152(**disk_get_number_of_blocks**)和1156(**disk_get_numcyls**)的 static刪除
