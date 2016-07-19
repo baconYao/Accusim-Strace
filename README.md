@@ -96,12 +96,13 @@
         -   ![alt](http://i.imgur.com/fIk2wKx.png)
 
 #### Make Src
-1.   cd asim/disksim/src/
+1.   `cd asim/disksim/src/`
     *   所有.c檔做縮排，同前一步驟做法
     *   修改src/disksim_disk.c
         -   line:1152(**disk_get_number_of_blocks**)和1156(**disk_get_numcyls**)的 static刪除
         -   line:1162(**disk_get_mapping**)的 static刪除並且縮排
     *   在disksim/src `make`即可
+
 ### Make Disksim
     *   cd asim/disksim 並且`make`，即可完成Disksim建置
 
