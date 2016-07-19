@@ -104,7 +104,7 @@
     *   在disksim/src `make`即可
 
 #### Make Disksim
-    *   cd asim/disksim 並且`make`，即可完成Disksim建置
+*   cd asim/disksim 並且`make`，即可完成Disksim建置
 
 <a name="accusim"/></a>
 ###Accusim建置
